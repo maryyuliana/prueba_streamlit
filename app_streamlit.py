@@ -4,9 +4,9 @@ from langchain.text_splitter import CharacterTextSplitter
 from langchain.embeddings import OpenAIEmbeddings
 from langchain.vectorstores import Chroma
 from langchain.chains import RetrievalQA
-import chromadb
+#import chromadb
 
-chromadb.api.client.SharedSystemClient.clear_system_cache()
+#chromadb.api.client.SharedSystemClient.clear_system_cache()
 
 def generate_response(uploaded_file, openai_api_key, query_text):
     # Load document if file is uploaded
